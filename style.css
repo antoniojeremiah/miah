@@ -1,0 +1,103 @@
+body {
+	text-align:center;
+	background: black;
+}
+
+a {
+	text-decoration: none;
+}
+
+.main-header {	 
+	 margin-bottom: 15px;
+}	
+ 
+#main-menu {
+     margin: 0;	
+	 padding: 0;
+	 text-align: center;
+	 list-style: none;
+	 display: grid;
+	 grid-gap: 20px;
+	 grid-template-columns: repeat(4,1fr) ;
+} 
+	 
+		
+.button{
+	 background: red;
+	 color: orange;	 	 
+	 padding: 10px 25px;	 
+}
+
+.button:hover {
+	 background: yellow;
+	 color: green;
+}
+
+.showcase {
+	padding: 350px;
+	background-image: url(../images/Penguins.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.main-article{
+	display: grid;
+	grid-gap: 5px;
+	grid-template-columns: 2fr 1fr;
+	margin-bottom: 5px;
+}	
+
+.article-left {
+	background: #ggeg10f;
+	padding: 40px;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 1fr 1fr;	
+}
+.inside-left-first {
+	background: red;
+	padding: 50px;
+	background-image: url (../images/filename);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.inside-left-first:hover {
+	 background: yellow;
+	 color: green;	
+}
+
+.inside-left-second {
+	padding: 50px;
+	background: red;
+	color: orange;
+}
+
+.inside-left-second:hover {
+	 background: yellow;
+	 color: green;	
+}
+
+.article-right{
+	text-align: center;
+	background: black;
+	color: white;
+}
+
+.footer{
+	text-align: center;
+	padding: 50px;
+    background: red;
+	color: orange;
+	margin-bottom: 10px;
+	box-shadow: 0 0 10px #
+}
+ 
+.footer:hover {
+	 background: yellow;
+	 color: green;	
+}		 
+
+
+	 
